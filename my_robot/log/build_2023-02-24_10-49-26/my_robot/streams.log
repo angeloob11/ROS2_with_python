@@ -1,0 +1,23 @@
+[1.024s] Invoking command in '/home/angel/My_ws/src/my_robot/build/my_robot': PYTHONPATH=/home/angel/My_ws/src/my_robot/build/my_robot/prefix_override:/home/angel/My_ws/src/my_robot/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/angel/My_ws/src/my_robot/build/my_robot/build --no-deps install_data
+[1.478s] running develop
+[1.836s] running egg_info
+[1.836s] creating my_robot.egg-info
+[1.836s] writing my_robot.egg-info/PKG-INFO
+[1.836s] writing dependency_links to my_robot.egg-info/dependency_links.txt
+[1.837s] writing entry points to my_robot.egg-info/entry_points.txt
+[1.837s] writing requirements to my_robot.egg-info/requires.txt
+[1.837s] writing top-level names to my_robot.egg-info/top_level.txt
+[1.837s] writing manifest file 'my_robot.egg-info/SOURCES.txt'
+[1.840s] reading manifest file 'my_robot.egg-info/SOURCES.txt'
+[1.841s] writing manifest file 'my_robot.egg-info/SOURCES.txt'
+[1.843s] running build_ext
+[1.843s] Creating /home/angel/My_ws/src/my_robot/install/my_robot/lib/python3.10/site-packages/my-robot.egg-link (link to .)
+[1.844s] 
+[1.844s] Installed /home/angel/My_ws/src/my_robot/build/my_robot
+[1.845s] running install_data
+[1.845s] creating /home/angel/My_ws/src/my_robot/install/my_robot/share/ament_index
+[1.845s] creating /home/angel/My_ws/src/my_robot/install/my_robot/share/ament_index/resource_index
+[1.845s] creating /home/angel/My_ws/src/my_robot/install/my_robot/share/ament_index/resource_index/packages
+[1.845s] copying resource/my_robot -> /home/angel/My_ws/src/my_robot/install/my_robot/share/ament_index/resource_index/packages
+[1.845s] copying package.xml -> /home/angel/My_ws/src/my_robot/install/my_robot/share/my_robot
+[1.892s] Invoked command in '/home/angel/My_ws/src/my_robot/build/my_robot' returned '0': PYTHONPATH=/home/angel/My_ws/src/my_robot/build/my_robot/prefix_override:/home/angel/My_ws/src/my_robot/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/angel/My_ws/src/my_robot/build/my_robot/build --no-deps install_data
