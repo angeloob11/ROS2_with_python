@@ -1,0 +1,5 @@
+[console_scripts]
+obstacle_detector = object_detection.obstacle_detector:main
+obstacle_detector_2 = object_detection.obstacle_detector_2:main
+obstacle_monitor = object_detection.obstacle_monitor:main
+

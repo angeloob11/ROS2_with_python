@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000253] (object_detection) JobQueued: {'identifier': 'object_detection', 'dependencies': OrderedDict()}
+[0.000322] (object_detection) JobStarted: {'identifier': 'object_detection'}
+[0.098304] (-) TimerEvent: {}
+[0.198630] (-) TimerEvent: {}
+[0.298982] (-) TimerEvent: {}
+[0.399342] (-) TimerEvent: {}
+[0.499707] (-) TimerEvent: {}
+[0.600035] (-) TimerEvent: {}
+[0.700360] (-) TimerEvent: {}
+[0.800671] (-) TimerEvent: {}
+[0.901134] (-) TimerEvent: {}
+[1.001661] (-) TimerEvent: {}
+[1.102622] (-) TimerEvent: {}
+[1.203855] (-) TimerEvent: {}
+[1.304403] (-) TimerEvent: {}
+[1.405455] (-) TimerEvent: {}
+[1.506374] (-) TimerEvent: {}
+[1.607241] (-) TimerEvent: {}
+[1.707804] (-) TimerEvent: {}
+[1.808626] (-) TimerEvent: {}
+[1.909490] (-) TimerEvent: {}
+[2.010761] (-) TimerEvent: {}
+[2.111444] (-) TimerEvent: {}
+[2.113709] (object_detection) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/angel/My_ws/src/object_detection/build/object_detection/build', '--no-deps', 'install_data'], 'cwd': '/home/angel/My_ws/src/object_detection/build/object_detection', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'es:en_US:en', 'USER': 'angel', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/angel', 'OLDPWD': '/home/angel', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'MANAGERPID': '2005', 'SYSTEMD_EXEC_PID': '2254', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '10468', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'LOGNAME': 'angel', 'JOURNAL_STREAM': '8:33993', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'angel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/angel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/angel-Lenovo-ideapad-310-14ISK:@/tmp/.ICE-unix/2236,unix/angel-Lenovo-ideapad-310-14ISK:/tmp/.ICE-unix/2236', 'INVOCATION_ID': '64e95e3880394c66a49effa0e72fa9e0', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '2', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:defe5960-bb38-47e4-825f-a2b124784aea', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/angel/My_ws/src/object_detection/build/object_detection', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/angel/My_ws/src/object_detection/build/object_detection/prefix_override:/home/angel/My_ws/src/object_detection/install/object_detection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.211548] (-) TimerEvent: {}
+[2.311972] (-) TimerEvent: {}
+[2.412282] (-) TimerEvent: {}
+[2.512616] (-) TimerEvent: {}
+[2.535940] (object_detection) StdoutLine: {'line': b'running develop\n'}
+[2.612762] (-) TimerEvent: {}
+[2.713111] (-) TimerEvent: {}
+[2.813438] (-) TimerEvent: {}
+[2.819938] (object_detection) StdoutLine: {'line': b'running egg_info\n'}
+[2.820283] (object_detection) StdoutLine: {'line': b'writing object_detection.egg-info/PKG-INFO\n'}
+[2.820650] (object_detection) StdoutLine: {'line': b'writing dependency_links to object_detection.egg-info/dependency_links.txt\n'}
+[2.821000] (object_detection) StdoutLine: {'line': b'writing entry points to object_detection.egg-info/entry_points.txt\n'}
+[2.821225] (object_detection) StdoutLine: {'line': b'writing requirements to object_detection.egg-info/requires.txt\n'}
+[2.821402] (object_detection) StdoutLine: {'line': b'writing top-level names to object_detection.egg-info/top_level.txt\n'}
+[2.824666] (object_detection) StdoutLine: {'line': b"reading manifest file 'object_detection.egg-info/SOURCES.txt'\n"}
+[2.831744] (object_detection) StdoutLine: {'line': b"writing manifest file 'object_detection.egg-info/SOURCES.txt'\n"}
+[2.833781] (object_detection) StdoutLine: {'line': b'running build_ext\n'}
+[2.834123] (object_detection) StdoutLine: {'line': b'Creating /home/angel/My_ws/src/object_detection/install/object_detection/lib/python3.10/site-packages/object-detection.egg-link (link to .)\n'}
+[2.835468] (object_detection) StdoutLine: {'line': b'Installing obstacle_detector script to /home/angel/My_ws/src/object_detection/install/object_detection/lib/object_detection\n'}
+[2.835713] (object_detection) StdoutLine: {'line': b'Installing obstacle_detector_2 script to /home/angel/My_ws/src/object_detection/install/object_detection/lib/object_detection\n'}
+[2.835906] (object_detection) StdoutLine: {'line': b'Installing obstacle_monitor script to /home/angel/My_ws/src/object_detection/install/object_detection/lib/object_detection\n'}
+[2.836274] (object_detection) StdoutLine: {'line': b'\n'}
+[2.836472] (object_detection) StdoutLine: {'line': b'Installed /home/angel/My_ws/src/object_detection/build/object_detection\n'}
+[2.836610] (object_detection) StdoutLine: {'line': b'running install_data\n'}
+[2.836796] (object_detection) StdoutLine: {'line': b'copying launch/detector_2.launch.py -> /home/angel/My_ws/src/object_detection/install/object_detection/share/object_detection/launch\n'}
+[2.847925] (object_detection) StdoutLine: {'line': b'copying launch/detector.launch.py -> /home/angel/My_ws/src/object_detection/install/object_detection/share/object_detection/launch\n'}
+[2.891482] (object_detection) CommandEnded: {'returncode': 0}
+[2.913729] (-) TimerEvent: {}
+[3.014248] (-) TimerEvent: {}
+[3.088734] (object_detection) JobEnded: {'identifier': 'object_detection', 'rc': 0}
+[3.090764] (-) EventReactorShutdown: {}
